@@ -15,6 +15,10 @@ svg {
     width: 1.5em;
 }
 
+.sidebar svg {
+    color: white;
+}
+
 img.profile {
     width: 3em;
     height: 3em;
@@ -36,6 +40,19 @@ body {
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+    background-color: #0770dfda;
+    color: white;
+    padding: 15px 20px;
+}
+
+.dashboard, .lines {
+    display: flex;
+    gap: 10px;
+    line-height: 35px;
+}
+
+.menu, .more-settings {
+    margin-top: 30px;
 }
 
 .header {
@@ -46,6 +63,7 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
+
 .announcements, .trending {
     grid-column: 2 / 3;
 }
