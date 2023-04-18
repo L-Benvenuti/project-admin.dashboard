@@ -1,0 +1,15 @@
+svg {
+    height: auto;
+    width: 1.5em;
+}
+
+img.profile {
+    width: 3em;
+    height: 3em;
+    border-radius: 100px;
+}
+
+img.main-pic {
+    border-radius: 100px;
+    width: 5em;
+}
